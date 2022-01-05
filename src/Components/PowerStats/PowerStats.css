@@ -1,12 +1,17 @@
 .stats-total-container{
+    display: flex;
+    justify-content: center;
     text-align: center;
+
 }
 
 
 
 .stats-total-container-list{
+    width: 80%;
     border: 2px solid gold;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px gold inset;
 }
 
 .stats-total-container-list__stat{
