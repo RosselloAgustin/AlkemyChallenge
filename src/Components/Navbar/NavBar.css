@@ -1,0 +1,84 @@
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    background: #48cae4;
+  }
+  
+  .header__title{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header__title h1{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 2px white;
+  }
+  
+  .header__block{
+    grid-column: 1 / span 1;
+    background: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block{
+    display: grid;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+  }
+  
+  .block__container{
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .block__title{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+  }
+  
+  .block__logoReact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .block__logoReact img{
+    max-width: 80px;
+    border-radius: 50%;
+  }
+  
+  .header__logoAlkemy{
+    grid-row: 3 / span 3;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header__logoAlkemy img{
+    max-width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+  }
+  
+  @media only screen and (min-width: 685px){
+    .header__logoAlkemy{
+      display: none;
+    }
+  
+    .header{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+    }
+  }

@@ -1,0 +1,17 @@
+.stats-total-container{
+    text-align: center;
+}
+
+
+
+.stats-total-container-list{
+    border: 2px solid gold;
+    border-radius: 20px;
+}
+
+.stats-total-container-list__stat{
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}

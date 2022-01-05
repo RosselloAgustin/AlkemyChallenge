@@ -1,0 +1,9 @@
+.hero-grid-container{
+    display: grid;
+    grid-template: auto / repeat(auto-fill, 320px) ;
+    gap:30px;
+    justify-content:center;
+    margin: 60px auto;
+    max-width: 1240px;
+    
+}
