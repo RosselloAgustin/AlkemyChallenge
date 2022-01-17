@@ -7,3 +7,40 @@
     max-width: 1240px;
     
 }
+
+.alert{
+    background-color: #fca5a5;
+    padding: 12px 18px;
+    color:#b91c1c;
+    font-weight: bold;
+    border-radius: 3px;
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button-agregar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.agregar{
+    width: 100px;
+    height: 30px;
+
+    background: #007F1C;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid black;
+    cursor: pointer;
+
+    font-size: 18px;
+    font-weight: bold;
+    transition: 100ms;
+
+}
+
+.agregar:hover{
+    background: #00380c;
+}

@@ -1,0 +1,18 @@
+
+
+Siguiente clase:
+
+Evitar que se sumen mas de 6 (validaciones)
+Evitar que se sumen heroes del mismo tipo (validaciones)
+
+
+
+
+Tarea: 
+
+El button agregar del search tiene que poder pasarse la informacion al home
+(como lo está haciendo el DetailPage)
+
+Se me ocurre que para poder hacer la funcionalidad del button del Detail (agregar) pero en el search..
+Tendriamos que hacer un Const addHero EN el HeroListContainer (seccion Search)
+

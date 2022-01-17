@@ -1,7 +1,10 @@
 import React from 'react';
-import './NavBar.css';
+import { NavLink } from 'react-router-dom';
+
 import logoAlkemy from '../../assets/image/alkemyImg.png';
 import logoReact from '../../assets/image/reactLogo.png';
+
+import './NavBar.css';
 
 const NavBar = () => {
 
@@ -27,6 +30,16 @@ const NavBar = () => {
             </div>
         </div>
         
+        <nav className="header__navBar">
+            <div className="navBar-list">
+                <ul>
+                    <NavLink to="/"><li>Home</li></NavLink>
+                    <NavLink to="/search"><li>Search</li></NavLink>
+                    <NavLink to="/search"><li>Search</li></NavLink>
+                    <NavLink to="/search"><li>Search</li></NavLink>
+                </ul>
+            </div>
+        </nav>
         
         <div className="header__logoAlkemy">
             <img src={logoAlkemy} alt="Logo de Alkemy"/>
